@@ -1,0 +1,42 @@
+h2{
+	color:#17cafd;
+	text-align:center;
+    
+}
+
+	
+	.cours_pdf a,.different_cours a,ul a {
+		color:#17cafd;
+		font-size:medium;
+		
+	}
+	
+	h2,h3{
+		color:#17cafd;
+		text-decoration:underline;
+	}
+	
+	#header h1{
+		font-size:small;
+	}
+	
+	
+	article{
+		
+		display:inline-block;
+		width:80%;
+		
+		margin-left:50px;
+	}
+	hr{
+		color:#17cafd;
+		
+	}
+
+     table{
+		 
+		 width:50%;
+		 margin:auto;
+		 height:50%;
+	 }
+	 

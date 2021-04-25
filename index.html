@@ -1,0 +1,86 @@
+<html>
+<head> 
+<title> Accueil </title>
+
+      <meta charset="utf-8">
+	<link rel="stylesheet" href="styleaccueil.css">
+	
+	
+	  <script language="javascript">
+           i=0;
+     function chrono()
+       {
+           
+          document.getElementById("heure").innerHTML='Vous êtes connecté depuis '+ Math.floor(i/60)+' minutes et '+(i%60)+' secondes ';
+           i++;
+       }
+       setInterval(chrono,1000);
+     
+   </script>
+   
+  
+</head>
+
+<body>
+ <div id="heure"></div>
+     <div class="page">
+
+ <a href="index.html" title="Accueil"> 
+ <header></header></a>
+ 
+   <nav>
+         
+		 <ul>
+		 <li> <a href="index.html" title="Accueil">  Accueil</a></li><!--
+	    --> <li> <a href="calcul.html" title="Cacule de base">  Cours</a></li><!--
+		--> <li> <a href="calculatrice.html" title="Caculatrice">Calculatrice</a></li><!--
+     		--><li> <a href="jeu.html" title="quizz">  Quizz</a></li>
+       </ul>
+        </nav>
+   <section class="1">
+  <h1 class="titre1"> Apprendre les mathématiques facilement</h1>
+   <p class="bienvenu">
+   <img src="dessin.jpg" alt="dessin" width="15%" height="25%">
+       Bienvenue sur le site, pour comprendre facilement les Maths.
+Vous y trouverez des cours de mathématiques , des exercices de mathématiques, des jeux et une calculatrice pour calculer rapidement.  
+   </p> 
+   <ul class="liste1">
+  <li> <img src="cours.jpg" width="8%" height="15%" alt="cours" ><a href="calcul.html" title="cours et exercices"> <br>  COURS ET EXERCICES </br> 
+  <i> Tous les cours et exercices pour progresser rapidement<i> </a></li>    
+ <br><li> <img src="jeu.jpg" width="8%" height="15%" alt="quizz" ><a href="jeu.html" title="Quizz"><br> QUIZZ </br>
+ <i> Apprennez en jouant </i></a></li>
+ <br> <li> <img src="calculatrice1.jpg" width="8%" height="15%" alt="calculatrice" ><a href="calculatrice.html" title="calculatrice"> <br>CALCULATRICE  </br> 
+ <i>Calcuer rapidement avec cette petite calculatrice </i></a> </li> 																									 
+        </ul>
+  
+   
+  </section> 
+  
+  
+  <footer>
+  <span class="lien">LIENS UTILES</span><span class="contact"> CONTACTEZ-MOI </span>  <hr> 
+  <div class="nom">
+  NIKIEMA Boubacar <br>
+  Etudiant à la faculté des sciences de Rabat
+  <br>Tel:+212 (0)6 76 86 16 86<br>
+  Email:nikiemaboubacar@gmail.com
+  <a href="fb"
+         
+  </div>
+ 
+  <ul type="disc" class="listelien">
+  <li> <a href="http://www.fsr.ac.ma/">Faculté des Sciences</a></li>
+  <li> <a href="https://www.mathematiquesfaciles.com/index.php">Cours de la 6eme à la terminale</a></li>
+  <li> <a href="https://www.francaisfacile.com/">S'ameliorer en Francais</a></li>
+  
+  </ul>
+  <div class="copyright">
+  
+  © Copyright 2018 Nikiema- Tous les droits réservés
+  </div>
+  
+  </footer>
+  
+ </div>
+  </body>
+  </html>
